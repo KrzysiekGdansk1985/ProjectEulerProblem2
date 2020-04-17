@@ -24,6 +24,7 @@ public class EulerProblem2 {
             Tmp[1] = Tmp[2];
             Tmp[2] = Tmp[1] + Tmp[0];
          }
-        System.out.println(sum);
+        System.out.println("The sum of the even-valued terms ");
+        System.out.println("whose values do not exceed four million is " + sum + ".");
     }
 }
